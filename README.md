@@ -328,44 +328,6 @@ torch.save(Y, "data_Y.pt")
 
 ---
 
-## Reproducibility Notes
-
-For reproducible experiments, set the PyTorch random seed before generating data or initializing models:
-
-```python
-torch.manual_seed(42)
-```
-
-When comparing multiple runs, keep the following fixed:
-
-- Data generation seed
-- Train/test split ratio
-- Network depth
-- Network width
-- Learning rate
-- Maximum time horizon
-- Noise level in the synthetic response
-
----
-
-## Research Motivation
-
-The Neural Tangent Kernel provides a way to understand the training dynamics of overparameterized neural networks. In the infinite-width limit, neural network training can often be approximated by kernel regression under the NTK.
-
-Random-effects models provide a statistical framework for modeling structured variation, variance components, and uncertainty. This project explores the relationship between these two viewpoints by comparing:
-
-- Finite-width neural network gradient descent
-- NTK-based kernel-flow dynamics
-- REML-based random-effects estimation
-
-The experiments are designed to help answer questions such as:
-
-- When does finite-width neural network training match NTK dynamics?
-- How does network width affect this approximation?
-- Can REML provide a meaningful stopping criterion?
-- How do hypothesis tests behave under the NTK/random-effects interpretation?
-
----
 
 ## Troubleshooting
 
