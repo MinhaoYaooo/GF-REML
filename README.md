@@ -17,6 +17,7 @@ The main goal is to provide a reproducible experimental pipeline for:
 ```text
 NTK-RE/
 ├── environment.yml          # Conda environment configuration
+├── LICENSE                  # GPL-3.0 copyleft license
 ├── train.py                 # Main training, NTK, REML, and comparison pipeline
 ├── src/                     # Core library code
 │   ├── model.py             # Dynamic depth/width neural network model
