@@ -2,7 +2,7 @@
 
 This repository provides **NTK-REML**, a Python toolkit for studying **Neural Tangent Kernel (NTK)-based inference** and **REML-guided early stopping** in deep neural networks. The toolkit connects wide DNN training dynamics with their NTK approximations, and uses **restricted maximum likelihood (REML)** to estimate principled stopping times and support statistical inference under a random-effects interpretation.
 
-The main goal is to provide a reproducible experimental pipeline for:
+The main goal is to provide a pipeline for:
 
 - Building fully connected DNNs with configurable depth and width
 - Computing empirical NTKs through Jacobian contraction
