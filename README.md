@@ -1,4 +1,4 @@
-# NTK-REML: Equivalence Between Neural Tangent Kernel and Random-Effects Models
+# NTK-REML: A Python Toolkit for NTK-Based Inference and Early Stopping of DNN
 
 This repository provides simulation and training code for studying the connection between the **Neural Tangent Kernel (NTK)** and **random-effects models**. The project compares wide neural network training with its NTK approximation, and uses **restricted maximum likelihood (REML)** together with hypothesis testing to analyze model behavior.
 
