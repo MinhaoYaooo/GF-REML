@@ -1,6 +1,6 @@
-# NTK-REML: A Python Toolkit for NTK-Based Inference and Early Stopping of DNNs
+# GF-REML: A Python Toolkit for Random-Effects Inference and Early Stopping of Fixed-Operator Gradient Flows
 
-This repository provides **NTK-REML**, a Python toolkit for studying **Neural Tangent Kernel (NTK)-based inference** and **REML-guided early stopping** in deep neural networks. The toolkit connects wide DNN training dynamics with their NTK approximations, and uses **restricted maximum likelihood (REML)** to estimate principled stopping times and support statistical inference under a random-effects interpretation.
+This repository provides **GF-REML**, a Python toolkit for studying **Fixed-Operator Gradient Flows** and **REML-guided early stopping** in deep neural networks. The toolkit connects wide DNN training dynamics with their NTK approximations, and uses **restricted maximum likelihood (REML)** to estimate principled stopping times and support statistical inference under a random-effects interpretation.
 
 The main goal is to provide a pipeline for:
 
@@ -16,7 +16,7 @@ The main goal is to provide a pipeline for:
 ## Project Structure
 
 ```text
-NTK-REML/
+GF-REML/
 ├── environment.yml          # Conda environment configuration
 ├── LICENSE                  # GPL-3.0 copyleft license
 ├── train.py                 # Main training, NTK, REML, and comparison pipeline
@@ -77,8 +77,8 @@ These functions are used to evaluate whether learned effects are statistically s
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/MinhaoYaooo/NTK-REML
-cd NTK-REML
+git clone https://github.com/MinhaoYaooo/GF-REML
+cd GF-REML
 ```
 
 ### 2. Create the Conda Environment
@@ -90,7 +90,7 @@ conda env create -f environment.yml
 ### 3. Activate the Environment
 
 ```bash
-conda activate NTK-REML
+conda activate GF-REML
 ```
 
 ### 4. Verify Installation
@@ -387,7 +387,7 @@ If you use this repository in academic work, please cite it as:
   title  = {Deep Neural Network Training as Random Effects: An Optimization–Inference Duality},
   author = {Minhao Yao, Ruoyu Wang, Xihong Lin, Lin Liu, Zhonghua Liu},
   year   = {2026},
-  url    = {https://github.com/MinhaoYaooo/NTK-REML}
+  url    = {https://github.com/MinhaoYaooo/GF-REML}
 }
 ```
 
