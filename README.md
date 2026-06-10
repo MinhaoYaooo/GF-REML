@@ -383,11 +383,14 @@ python train.py \
 If you use this repository in academic work, please cite it as:
 
 ```bibtex
-@misc{yao2026deep,
-  title  = {Deep Neural Network Training as Random Effects: An Optimization–Inference Duality},
-  author = {Minhao Yao, Ruoyu Wang, Xihong Lin, Lin Liu, Zhonghua Liu},
-  year   = {2026},
-  url    = {https://github.com/MinhaoYaooo/GF-REML}
+@misc{yao2026gradientflowoptimizationdynamicrandomeffects,
+      title={Gradient-Flow Optimization as Dynamic Random-Effects Inference: Testing and Early Stopping with Applications to Deep Learning}, 
+      author={Minhao Yao and Ruoyu Wang and Xihong Lin and Lin Liu and Zhonghua Liu},
+      year={2026},
+      eprint={2605.27991},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML},
+      url={https://arxiv.org/abs/2605.27991}, 
 }
 ```
 
