@@ -1,4 +1,4 @@
-name: NTK-RE
+name: GF-REML
 channels:
   - pytorch
   - defaults
